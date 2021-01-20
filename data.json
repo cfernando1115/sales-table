@@ -1,0 +1,61 @@
+[{
+    "month": "January",
+    "sales": 50000,
+    "salesPerson": "Angela"
+},
+{
+    "month": "February",
+    "sales": 10000,
+    "salesPerson": "Roberto"
+},
+{
+    "month": "March",
+    "sales": 85000,
+    "salesPerson": "Maria"
+},
+{
+    "month": "April",
+    "sales": 56000,
+    "salesPerson": "Stacy"
+},
+{
+    "month": "May",
+    "sales": 68000,
+    "salesPerson": "William"
+},
+{
+    "month": "June",
+    "sales": 32000,
+    "salesPerson": "Darrel"
+},
+{
+    "month": "July",
+    "sales": 21000,
+    "salesPerson": "Angela"
+},
+{
+    "month": "August",
+    "sales": 18000,
+    "salesPerson": "Angela"
+},
+{
+    "month": "September",
+    "sales": 118000,
+    "salesPerson": "Maria"
+},
+{
+    "month": "October",
+    "sales": 52000,
+    "salesPerson": "Stacy"
+},
+{
+    "month": "November",
+    "sales": 87000,
+    "salesPerson": "Angela"
+},
+{
+    "month": "December",
+    "sales": 121000,
+    "salesPerson": "William"
+}
+]
