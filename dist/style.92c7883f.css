@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
 html,
 body{
     background-color:blue;
@@ -62,8 +69,8 @@ h1{
     padding-bottom:3px;
 }
 
-a:hover,
-a:active{
+.nav-list a:hover,
+.nav-list a:active{
     border-bottom:1px solid grey;
 }
 
@@ -117,6 +124,7 @@ a:active{
     -webkit-box-direction:normal;
     -ms-flex-direction:column;
     flex-direction:column;
+    overflow: hidden;
 }
 
 /*****Title and Heading*****/
@@ -127,7 +135,10 @@ a:active{
     padding-bottom:60px;
 }
 
-.table{text-align: left}
+.table{
+    text-align: left; 
+    -webkit-box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.2); 
+            box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.2);}
 
 .table thead tr{
     background-color: black;
@@ -153,6 +164,16 @@ thead a:active,
 thead a:hover{
     color:rgb(219, 219, 219);
 }
+
+tbody a{
+    color:blue;
+}
+
+tbody a:active,
+tbody a:hover{
+    cursor: pointer;
+}
+
 
 /*****Rows and Borders***/
 
@@ -230,9 +251,8 @@ tr td:last-child{
     /*****Table*****/
 
     .table-body{
-        -webkit-box-flex:50%;
-        -ms-flex:50%;
-        flex:50%;
+        width:94%;
+        margin-left:3%;
     }
 
     tr td:last-child{
@@ -243,7 +263,7 @@ tr td:last-child{
     .table td,
     .table th{
         padding-left:10px;
-        padding-right:50px;
+        padding-right:20px;
     }
 
     th{
@@ -251,7 +271,7 @@ tr td:last-child{
     }
 
     td{
-        font-size:90%;
+        font-size:80%;
     }
 }
 
@@ -265,3 +285,5 @@ tr td:last-child{
 
 
 
+
+/*# sourceMappingURL=style.92c7883f.css.map */
