@@ -483,7 +483,7 @@ function controlForm(row) {
 function controlEdit(id, sales, salesperson) {
   _dataModelJs.updateRow(id, sales, salesperson);
   _dataViewJs.clearTable();
-  _dataViewJs.clicks.salesClick > 0 ? controlSort() : _dataViewJs.render(_dataModelJs.state.curData, controlForm);
+  _dataViewJs.clicks.salesClick > 0 || _dataViewJs.clicks.nameClick > 0 ? controlSort() : _dataViewJs.render(_dataModelJs.state.curData, controlForm);
 }
 (async function () {
   try {

@@ -133,10 +133,18 @@ h1{
     color:white;
     padding-top:30px;
     padding-bottom:60px;
+    width: 800px;
+}
+
+.table-info h1{
+    margin-left: 5%;
 }
 
 .table{
     text-align: left; 
+    margin-left: 5%;
+    width: 90%;
+    table-layout: fixed;
     -webkit-box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.2); 
             box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.2);}
 
@@ -145,7 +153,7 @@ h1{
 }
 
 .table-data{
-    max-width: fit-content;
+    max-width: 800px;
 }
 
 .quarters{
@@ -157,6 +165,8 @@ h1{
     justify-content:space-between;
     padding-top:10px;
     padding-bottom:5px;
+    width: 90%;
+    margin-left: 5%;
 }
 
 thead a{
@@ -202,7 +212,7 @@ tr td:last-child{
 .table th{
     border-left:1px solid rgb(219, 219, 219);
     padding-left:10px;
-    padding-right:60px;
+    padding-right:10px;
 }
 
 .table tr:first-child,
@@ -225,11 +235,20 @@ td label{
 
 td input{
     width:120px;
+    border: none;
+    box-shadow: 1px 1px 2px 2px rgba(128, 128, 128, 0.774);
+    border-radius: 2px;
+    background-color: aliceblue;
+}
+
+td input:focus{
+    outline:none;
 }
 
 td input[id="submit"],
 td input[id="cancel"]{
-    width:60px;
+    width:80px;
+    border: none;
 }
 
 td input[id="submit"]{
@@ -275,6 +294,10 @@ td input[id="submit"]{
 
     /*****Table*****/
 
+    .table-info{
+        width: 500px;
+    }
+
     .table-body{
         width:94%;
         margin-left:3%;
@@ -297,6 +320,15 @@ td input[id="submit"]{
 
     td{
         font-size:80%;
+    }
+
+    td input{
+        width:80px;
+    }
+    
+    td input[id="submit"],
+    td input[id="cancel"]{
+        width:60px;
     }
 }
 
