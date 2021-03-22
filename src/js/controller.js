@@ -32,7 +32,9 @@ function controlForm(row) {
 function controlEdit(id, sales, salesperson) {
     updateRow(id, sales, salesperson);
     clearTable();
-    clicks.salesClick > 0 || clicks.nameClick > 0 ? controlSort() : render(state.curData, controlForm);
+    clicks.salesClick > 0 || clicks.nameClick > 0
+        ? controlSort()
+        : render(state.curData, controlForm);
 }
 
 ( async function(){

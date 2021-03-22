@@ -131,8 +131,8 @@ export function buildForm(value) {
             <input type="text" id="salespersonInput" name="salesperson">
         </td>
         <td>
-            <input type="button" id="submit" value="Submit">
-            <input type="button" id="cancel" value="Cancel">
+            <input type="button" id="submit" name="submit" value="Submit">
+            <input type="button" id="cancel" Name="cancel" value="Cancel">
         </td>
     </tr>
     `;
